@@ -1,0 +1,39 @@
+name: update
+
+# Hourly: fetch Hugging Face's top 10 trending models and commit trending.json
+# when it changed. The commit message announces models new to the top 10,
+# models that left it, and rank changes. The box (vmi3458323) also dispatches
+# this workflow hourly, because GitHub drops or delays scheduled runs; the
+# concurrency group queues an overlapping run instead of cancelling it.
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Fetch the top 10
+        run: python3 update.py --message "$RUNNER_TEMP/message"
+      - name: Commit and push when it changed
+        run: |
+          if git diff --quiet -- trending.json; then
+            echo "trending.json unchanged"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add trending.json
+          git commit -q -F "$RUNNER_TEMP/message"
+          git push

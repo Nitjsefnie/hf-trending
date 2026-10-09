@@ -1,0 +1,10 @@
+*
+!.gitignore
+!README.md
+!update.py
+!trending.json
+!.github/
+.github/*
+!.github/workflows/
+.github/workflows/*
+!.github/workflows/*.yml
