@@ -4,18 +4,18 @@
     {
       "rank": 1,
       "id": "google/embeddinggemma-2",
-      "trendingScore": 1280,
+      "trendingScore": 1288,
       "pipeline_tag": "feature-extraction",
-      "likes": 1328,
+      "likes": 1337,
       "downloads": 29185,
       "createdAt": "2026-09-14T14:53:42.000Z"
     },
     {
       "rank": 2,
       "id": "Cloudflare/clef",
-      "trendingScore": 1018,
+      "trendingScore": 1004,
       "pipeline_tag": "image-text-to-text",
-      "likes": 1935,
+      "likes": 1938,
       "downloads": 12066,
       "createdAt": "2026-09-30T21:15:35.000Z"
     },
@@ -31,27 +31,27 @@
     {
       "rank": 4,
       "id": "jialinyyzz/humanizer",
-      "trendingScore": 683,
+      "trendingScore": 690,
       "pipeline_tag": "text-generation",
-      "likes": 730,
+      "likes": 737,
       "downloads": 29470,
       "createdAt": "2026-09-11T05:00:16.000Z"
     },
     {
       "rank": 5,
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "trendingScore": 654,
+      "trendingScore": 652,
       "pipeline_tag": "text-to-image",
-      "likes": 3753,
+      "likes": 3759,
       "downloads": 2013268,
       "createdAt": "2026-09-20T15:51:13.000Z"
     },
     {
       "rank": 6,
       "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "trendingScore": 565,
+      "trendingScore": 552,
       "pipeline_tag": "text-generation",
-      "likes": 672,
+      "likes": 673,
       "downloads": 38740,
       "createdAt": "2026-09-17T18:37:31.000Z"
     },
@@ -60,14 +60,14 @@
       "id": "Lightricks/LTX-2.5",
       "trendingScore": 475,
       "pipeline_tag": "image-to-video",
-      "likes": 7039,
+      "likes": 7049,
       "downloads": 1687531,
       "createdAt": "2026-07-23T07:55:24.000Z"
     },
     {
       "rank": 8,
       "id": "Cloudflare/clef-flash",
-      "trendingScore": 402,
+      "trendingScore": 397,
       "pipeline_tag": "image-text-to-text",
       "likes": 712,
       "downloads": 18971,
@@ -76,16 +76,16 @@
     {
       "rank": 9,
       "id": "Qwen/Qwen3.8-27B",
-      "trendingScore": 335,
+      "trendingScore": 334,
       "pipeline_tag": "image-text-to-text",
-      "likes": 17341,
+      "likes": 17343,
       "downloads": 6783589,
       "createdAt": "2026-08-05T08:22:59.000Z"
     },
     {
       "rank": 10,
       "id": "convaiinnovations/laya",
-      "trendingScore": 325,
+      "trendingScore": 321,
       "pipeline_tag": "text-classification",
       "likes": 5424,
       "downloads": 41468,
