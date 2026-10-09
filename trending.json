@@ -4,18 +4,18 @@
     {
       "rank": 1,
       "id": "google/embeddinggemma-2",
-      "trendingScore": 1271,
+      "trendingScore": 1274,
       "pipeline_tag": "feature-extraction",
-      "likes": 1319,
+      "likes": 1322,
       "downloads": 29185,
       "createdAt": "2026-09-14T14:53:42.000Z"
     },
     {
       "rank": 2,
       "id": "Cloudflare/clef",
-      "trendingScore": 1039,
+      "trendingScore": 1032,
       "pipeline_tag": "image-text-to-text",
-      "likes": 1931,
+      "likes": 1934,
       "downloads": 12066,
       "createdAt": "2026-09-30T21:15:35.000Z"
     },
@@ -40,16 +40,16 @@
     {
       "rank": 5,
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "trendingScore": 655,
+      "trendingScore": 653,
       "pipeline_tag": "text-to-image",
-      "likes": 3747,
+      "likes": 3749,
       "downloads": 2013268,
       "createdAt": "2026-09-20T15:51:13.000Z"
     },
     {
       "rank": 6,
       "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "trendingScore": 585,
+      "trendingScore": 576,
       "pipeline_tag": "text-generation",
       "likes": 672,
       "downloads": 38740,
@@ -60,32 +60,32 @@
       "id": "Lightricks/LTX-2.5",
       "trendingScore": 471,
       "pipeline_tag": "image-to-video",
-      "likes": 7024,
+      "likes": 7029,
       "downloads": 1687531,
       "createdAt": "2026-07-23T07:55:24.000Z"
     },
     {
       "rank": 8,
       "id": "Cloudflare/clef-flash",
-      "trendingScore": 407,
+      "trendingScore": 404,
       "pipeline_tag": "image-text-to-text",
-      "likes": 710,
+      "likes": 711,
       "downloads": 18971,
       "createdAt": "2026-09-30T21:15:36.000Z"
     },
     {
       "rank": 9,
       "id": "Qwen/Qwen3.8-27B",
-      "trendingScore": 336,
+      "trendingScore": 337,
       "pipeline_tag": "image-text-to-text",
-      "likes": 17337,
+      "likes": 17340,
       "downloads": 6783589,
       "createdAt": "2026-08-05T08:22:59.000Z"
     },
     {
       "rank": 10,
       "id": "convaiinnovations/laya",
-      "trendingScore": 334,
+      "trendingScore": 328,
       "pipeline_tag": "text-classification",
       "likes": 5423,
       "downloads": 41468,
