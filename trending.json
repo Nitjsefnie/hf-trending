@@ -13,7 +13,7 @@
     {
       "rank": 2,
       "id": "Cloudflare/clef",
-      "trendingScore": 1040,
+      "trendingScore": 1039,
       "pipeline_tag": "image-text-to-text",
       "likes": 1931,
       "downloads": 12066,
@@ -49,7 +49,7 @@
     {
       "rank": 6,
       "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "trendingScore": 586,
+      "trendingScore": 585,
       "pipeline_tag": "text-generation",
       "likes": 672,
       "downloads": 38740,
