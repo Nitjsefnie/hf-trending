@@ -6,50 +6,50 @@
       "id": "google/embeddinggemma-2",
       "trendingScore": 1288,
       "pipeline_tag": "feature-extraction",
-      "likes": 1337,
+      "likes": 1338,
       "downloads": 29185,
       "createdAt": "2026-09-14T14:53:42.000Z"
     },
     {
       "rank": 2,
       "id": "Cloudflare/clef",
-      "trendingScore": 1004,
+      "trendingScore": 1002,
       "pipeline_tag": "image-text-to-text",
-      "likes": 1938,
+      "likes": 1941,
       "downloads": 12066,
       "createdAt": "2026-09-30T21:15:35.000Z"
     },
     {
       "rank": 3,
       "id": "Aleph-Alpha/Kolibri-1",
-      "trendingScore": 776,
+      "trendingScore": 777,
       "pipeline_tag": "text-generation",
-      "likes": 841,
+      "likes": 842,
       "downloads": 8474,
       "createdAt": "2026-10-02T05:54:02.000Z"
     },
     {
       "rank": 4,
       "id": "jialinyyzz/humanizer",
-      "trendingScore": 690,
+      "trendingScore": 693,
       "pipeline_tag": "text-generation",
-      "likes": 737,
+      "likes": 741,
       "downloads": 29470,
       "createdAt": "2026-09-11T05:00:16.000Z"
     },
     {
       "rank": 5,
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "trendingScore": 652,
+      "trendingScore": 651,
       "pipeline_tag": "text-to-image",
-      "likes": 3759,
+      "likes": 3764,
       "downloads": 2013268,
       "createdAt": "2026-09-20T15:51:13.000Z"
     },
     {
       "rank": 6,
       "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "trendingScore": 552,
+      "trendingScore": 539,
       "pipeline_tag": "text-generation",
       "likes": 673,
       "downloads": 38740,
@@ -58,36 +58,36 @@
     {
       "rank": 7,
       "id": "Lightricks/LTX-2.5",
-      "trendingScore": 475,
+      "trendingScore": 477,
       "pipeline_tag": "image-to-video",
-      "likes": 7049,
+      "likes": 7057,
       "downloads": 1687531,
       "createdAt": "2026-07-23T07:55:24.000Z"
     },
     {
       "rank": 8,
       "id": "Cloudflare/clef-flash",
-      "trendingScore": 397,
+      "trendingScore": 395,
       "pipeline_tag": "image-text-to-text",
-      "likes": 712,
+      "likes": 713,
       "downloads": 18971,
       "createdAt": "2026-09-30T21:15:36.000Z"
     },
     {
       "rank": 9,
       "id": "Qwen/Qwen3.8-27B",
-      "trendingScore": 334,
+      "trendingScore": 332,
       "pipeline_tag": "image-text-to-text",
-      "likes": 17343,
+      "likes": 17345,
       "downloads": 6783589,
       "createdAt": "2026-08-05T08:22:59.000Z"
     },
     {
       "rank": 10,
       "id": "convaiinnovations/laya",
-      "trendingScore": 321,
+      "trendingScore": 318,
       "pipeline_tag": "text-classification",
-      "likes": 5424,
+      "likes": 5425,
       "downloads": 41468,
       "createdAt": "2026-09-18T05:05:55.000Z"
     }
