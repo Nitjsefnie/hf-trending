@@ -2,94 +2,34 @@
   "source": "https://huggingface.co/api/models?sort=trendingScore&limit=10",
   "models": [
     {
-      "rank": 1,
-      "id": "google/embeddinggemma-2",
-      "trendingScore": 1294,
-      "pipeline_tag": "feature-extraction",
-      "likes": 1346,
-      "downloads": 29185,
-      "createdAt": "2026-09-14T14:53:42.000Z"
+      "id": "google/embeddinggemma-2"
     },
     {
-      "rank": 2,
-      "id": "Cloudflare/clef",
-      "trendingScore": 991,
-      "pipeline_tag": "image-text-to-text",
-      "likes": 1943,
-      "downloads": 12066,
-      "createdAt": "2026-09-30T21:15:35.000Z"
+      "id": "Cloudflare/clef"
     },
     {
-      "rank": 3,
-      "id": "Aleph-Alpha/Kolibri-1",
-      "trendingScore": 777,
-      "pipeline_tag": "text-generation",
-      "likes": 842,
-      "downloads": 8474,
-      "createdAt": "2026-10-02T05:54:02.000Z"
+      "id": "Aleph-Alpha/Kolibri-1"
     },
     {
-      "rank": 4,
-      "id": "jialinyyzz/humanizer",
-      "trendingScore": 699,
-      "pipeline_tag": "text-generation",
-      "likes": 748,
-      "downloads": 29470,
-      "createdAt": "2026-09-11T05:00:16.000Z"
+      "id": "jialinyyzz/humanizer"
     },
     {
-      "rank": 5,
-      "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "trendingScore": 656,
-      "pipeline_tag": "text-to-image",
-      "likes": 3770,
-      "downloads": 2013268,
-      "createdAt": "2026-09-20T15:51:13.000Z"
+      "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
     },
     {
-      "rank": 6,
-      "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "trendingScore": 540,
-      "pipeline_tag": "text-generation",
-      "likes": 674,
-      "downloads": 38740,
-      "createdAt": "2026-09-17T18:37:31.000Z"
+      "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF"
     },
     {
-      "rank": 7,
-      "id": "Lightricks/LTX-2.5",
-      "trendingScore": 474,
-      "pipeline_tag": "image-to-video",
-      "likes": 7066,
-      "downloads": 1687531,
-      "createdAt": "2026-07-23T07:55:24.000Z"
+      "id": "Lightricks/LTX-2.5"
     },
     {
-      "rank": 8,
-      "id": "Cloudflare/clef-flash",
-      "trendingScore": 390,
-      "pipeline_tag": "image-text-to-text",
-      "likes": 713,
-      "downloads": 18971,
-      "createdAt": "2026-09-30T21:15:36.000Z"
+      "id": "Cloudflare/clef-flash"
     },
     {
-      "rank": 9,
-      "id": "Qwen/Qwen3.8-27B",
-      "trendingScore": 333,
-      "pipeline_tag": "image-text-to-text",
-      "likes": 17349,
-      "downloads": 6783589,
-      "createdAt": "2026-08-05T08:22:59.000Z"
+      "id": "Qwen/Qwen3.8-27B"
     },
     {
-      "rank": 10,
-      "id": "convaiinnovations/laya",
-      "trendingScore": 313,
-      "pipeline_tag": "text-classification",
-      "likes": 5426,
-      "downloads": 41468,
-      "createdAt": "2026-09-18T05:05:55.000Z"
+      "id": "convaiinnovations/laya"
     }
   ]
 }

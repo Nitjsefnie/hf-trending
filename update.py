@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Fetch Hugging Face's top 10 trending models into trending.json.
+"""Fetch Hugging Face's top 10 trending model ids into trending.json.
 
     update.py [--message FILE]
 
-Rewrites trending.json and writes a commit message describing what moved
-since the previous file: models that entered the top 10 (announced as new),
-models that left it, and rank changes. Prints the message too.
+Rewrites trending.json — just the model ids in Hugging Face's trending
+order — and writes a commit message describing what moved since the
+previous file: models that entered the top 10 (announced as new), models
+that left it, and rank changes. Prints the message too.
 """
 import argparse
 import json
@@ -14,32 +15,30 @@ import urllib.request
 
 URL = "https://huggingface.co/api/models?sort=trendingScore&limit=10"
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "trending.json")
-FIELDS = ("trendingScore", "pipeline_tag", "likes", "downloads", "createdAt")
 
 
 def fetch():
     req = urllib.request.Request(URL, headers={"User-Agent": "hf-trending"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         models = json.load(resp)
-    return [{"rank": n, "id": m["id"], **{k: m.get(k) for k in FIELDS}}
-            for n, m in enumerate(models[:10], 1)]
+    return [{"id": m["id"]} for m in models[:10]]
 
 
 def message(old, new):
-    before = {m["id"]: m["rank"] for m in old}
-    after = {m["id"]: m["rank"] for m in new}
+    before = {m["id"]: n for n, m in enumerate(old, 1)}
+    after = {m["id"]: n for n, m in enumerate(new, 1)}
     entered = [m for m in new if m["id"] not in before]
     left = [m for m in old if m["id"] not in after]
-    moved = [m for m in new if m["id"] in before and before[m["id"]] != m["rank"]]
+    moved = [m for m in new if m["id"] in before and before[m["id"]] != after[m["id"]]]
     if entered:
         subject = f"Trending: {len(entered)} new in the top 10: " + ", ".join(m["id"] for m in entered)
     elif moved:
         subject = f"Trending: {len(moved)} rank change(s)"
     else:
-        subject = "Trending: scores updated"
-    body = [f"NEW  #{m['rank']} {m['id']} ({m['pipeline_tag']})" for m in entered]
-    body += [f"OUT  {m['id']} (was #{m['rank']})" for m in left]
-    body += [f"MOVE {m['id']} #{before[m['id']]} -> #{m['rank']}" for m in moved]
+        subject = "Trending: order updated"
+    body = [f"NEW  #{after[m['id']]} {m['id']}" for m in entered]
+    body += [f"OUT  {m['id']} (was #{before[m['id']]})" for m in left]
+    body += [f"MOVE {m['id']} #{before[m['id']]} -> #{after[m['id']]}" for m in moved]
     return subject + ("\n\n" + "\n".join(body) if body else "") + "\n"
 
 
