@@ -1,3 +1,8 @@
+> **Archived 2026-10-12.** The Hugging Face trending tracker now lives in
+> [Nitjsefnie/ai-researcher](https://github.com/Nitjsefnie/ai-researcher)
+> (workflow `hf-trending.yml`, ai-researcher#256). This repository's history is
+> kept read-only as the record up to that point.
+
 # hf-trending
 
 Hugging Face's top 10 trending models — just the model ids, in Hugging
